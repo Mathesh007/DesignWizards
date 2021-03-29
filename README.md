@@ -1,2 +1,2 @@
 # DesignWizards
-EventHUB - Your one-stop solution for successful Event Management
+Velvet Thunder - Your one-stop solution for successful Event Management

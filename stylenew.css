@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sansita";
+}
+
+body{
+    background: linear-gradient(45deg, #492645,#734488, #9FEBEB,#734488, #492645);
+}
+
+.navbar{
+    background-color: #492645;
+}
+.container1{
+    height:80vh;
+    width:95vw;
+}
+
+.img1{
+    height:60vh;
+    width: 45vw;
+    margin-top: 15vh;
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.container1 h1{
+    color: #492645;
+}
+
+.container1 h5{
+    color:#492645;
+    margin-left: -15px;
+}
+
+.container1 hr{
+    width: 315px;
+    height:2px;
+    background-color:#734488;
+    margin-left: -15px;
+}
+
+ .hr-main{
+    margin-top: 20vh;
+    height:3px;
+    background-color:#734488;
+}
+
+.hr-main2{
+    margin-top: 30vh;
+    height:3px;
+    background-color:#734488;
+}
+
+.container2{
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+.logo{
+    margin-left: -30px;
+    height: 100%;
+    width:100%;
+}
+
+.des1{
+    margin-left:50px;
+}
+
+.b1 button{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #734488, #9FEBEB);
+    font-size: 15px;
+    color: white;
+}
+
+.heading{
+    padding-top: 5vh;
+    text-align: center;
+    color: #492645;
+}
+
+.container3{
+    width: 95vw;
+    height: 60vh;
+}
+
+.container3 img{
+    padding-left: 100px;
+    padding-top: 50px;
+    height:250px;
+    width: 400px;
+}
+
+.container3 h3{
+    text-align: center;
+    color: #492645;
+}
+
+.heading2{
+    padding-top: 5vh;
+    text-align: center;
+    color: #FAFCDB;
+}
+
+.heading2 h1{
+    font-family: Kameron;
+}
+
+.heading2 hr{
+    width: 600px;
+    height:2px;
+    background-color:#734488;
+    margin-left: 30vw;
+}
+
+.container4{
+    margin-top: 5vh;
+    width: 95vw;
+    height: 50vh;
+}
+
+.carousel-inner{
+    max-width: 300px;
+    max-height: 314px;
+    margin-bottom: 5vh;
+    margin-left: 20px;
+}
+
+.container4 .col-sm{
+    padding-left: 78px;
+    padding-right: 80px;
+}
+
+.container4 h3{
+    margin-top: 100px;
+    font-family: Kameron;
+    text-align: center;
+    color: white;
+}
+

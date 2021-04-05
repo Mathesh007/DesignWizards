@@ -13,14 +13,14 @@ body{
     background-color: #492645;
 }
 .container1{
-    height:80vh;
+    height: 720px;
     width:95vw;
 }
 
 .img1{
-    height:60vh;
+    height:450px;
     width: 45vw;
-    margin-top: 15vh;
+    margin-top: 120px;
 }
 
 .nav-item{
@@ -45,19 +45,19 @@ body{
 }
 
  .hr-main{
-    margin-top: 20vh;
+    margin-top: 40px;
     height:3px;
     background-color:#734488;
 }
 
 .hr-main2{
-    margin-top: 30vh;
+    margin-top: 300px;
     height:3px;
     background-color:#734488;
 }
 
 .container2{
-    margin-top: 15vh;
+    margin-top: 135px;
     margin-left: 5vw;
 }
 
@@ -72,8 +72,8 @@ body{
 }
 
 .b1 button{
-    margin-top: 4.444vh;
-    height: 5.555vh;
+    margin-top: 40px;
+    height: 50px;
     width: 10.416vw;
     border-radius: 15px;
     background: linear-gradient(to right, #734488, #9FEBEB);
@@ -82,20 +82,20 @@ body{
 }
 
 .heading{
-    padding-top: 5vh;
+    padding-top: 45px;
     text-align: center;
     color: #492645;
 }
 
 .container3{
     width: 95vw;
-    height: 60vh;
+    height: 540px;
 }
 
 .container3 img{
     padding-left: 2.94vw;
-    padding-top: 5.555vh;
-    height:27.775vh;
+    padding-top: 50px;
+    height: 330px;
     width: 27.776vw;
 }
 
@@ -105,13 +105,14 @@ body{
 }
 
 .heading2{
-    padding-top: 5vh;
+    padding-top: 45px;
     text-align: center;
     color: #FAFCDB;
 }
 
 .heading2 h1{
     font-family: Kameron;
+    margin-top: 20px;
 }
 
 .heading2 hr{
@@ -122,15 +123,15 @@ body{
 }
 
 .container4{
-    margin-top: 5vh;
+    margin-top: 45px;
     width: 95vw;
-    height: 50vh;
+    height: 450px;
 }
 
 .carousel-inner{
     max-width: 22.832vw;
-    max-height: 42.8854vh;
-    margin-bottom: 5vh;
+    max-height: 350px;
+    margin-bottom: 45px;
     margin-left: 0.3888vw;
 }
 
@@ -140,7 +141,7 @@ body{
 }
 
 .container4 h3{
-    margin-top: 11.11vh;
+    margin-top: 100px;
     font-family: Kameron;
     text-align: center;
     color: white;

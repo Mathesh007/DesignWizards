@@ -1,0 +1,536 @@
+/* color palette to be used #734488, #492645, #9FEBEB, #FAFCDB */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    height:auto;
+    /* background-color: #9FEBEB; */
+  
+
+ 
+  }
+
+
+  nav {
+    height: 7vh;
+    color: #734488;
+    width:95vw;
+    position: absolute;
+    left:2vw;
+    top:1vh;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .logo{
+    height:35px;
+    position: absolute;
+    left: 6vw;
+    top: 1vh;
+  }
+.logoText{
+  font-size: 14px;
+  color: #FAFCDB;
+  position: absolute;
+  left: 35px;
+  top: 14px;
+
+}
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .nav-links li a {
+    color: 492645;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:bold ;
+  }
+  
+  .nav-links li a:hover{
+    
+    color:  #FAFCDB;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .landing {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing h1 {
+    margin: 100px;
+    font-size: 50px;
+    color:#492645;
+  }
+
+  hr{
+    width: 22vw;
+    height: 2px;
+    color: #492645;
+    background-color: #492645;
+    position: absolute;
+    left: 170px;
+    top: 364px;
+  }
+
+  .text1{
+    position: absolute;
+    left: 21vw;
+    top: 34vh;
+    font-size: 4vh;
+    color:#FAFCDB;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  
+  .text2{
+    position: absolute;
+    left: 15.5vw;
+    top: 45vh;
+    color: #ffffff;
+    font-size: 8vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+
+  }
+  .event{
+    color:#492645;
+  }
+
+  .heroSection{
+    
+  position: absolute;
+  top:0vh;
+  width: 89vw;
+  height:100vh;
+  left: 5vw;
+  bottom: 503px;
+
+  background: linear-gradient(88.33deg, #8D8BFF -7.64%, #585EE6 145.94%);
+  /* box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.6), 6px 9px 40px rgba(63, 60, 255, 0.44); */
+}
+
+
+.Hire{
+  border-radius: 5px;
+  width:140px;
+  height:8vh;
+  outline: none;
+  border:none;
+  color: white;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  top:68vh;
+  left:15.5vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.Hire:hover{
+  background: linear-gradient(to right, #008ee0, #9FEBEB);
+}
+
+
+.heroImage{
+  position: absolute;
+  right: 5vw;
+  top:5vh;
+  border-radius: 20px;
+  height:80vh
+}
+
+.logo-hero{
+  height:140px;
+  position:absolute;
+  top:13vh;
+  left:21.5vw;
+}
+
+/* button */
+
+
+
+
+ .design1{
+   height:80px;
+   position: absolute;
+   top:10vh;
+  
+ }
+
+ 
+ .design2{
+  height:80px;
+  position: absolute;
+  top:74vh;
+  left:40vw;
+
+}
+
+
+/* cards */
+.serviceCards{
+  position: absolute;
+  top:100vh;
+  width:100%;
+  display: grid;
+  place-items: center center;
+  /* background-color: #9FEBEB; */
+
+  font-family: 'Poppins',sans-serif;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    transition: .2s;
+    
+}
+.card{
+    background-color: #1c1b29;
+    box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.6), 6px 9px 40px rgba(63, 60, 255, 0.44);
+    border-radius: 10px;
+ 
+
+}
+
+.card:hover{
+  transform: scale(1.09);
+  transition: all 0.5s ease-in;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+
+.container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.7;
+}
+.card1>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #fb36f4
+    );
+}
+.card2>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #2bdce3,
+        #42ffdb
+    );
+}
+.card3>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+}
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.serviceCards img{
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+
+/* testimonials */
+.testimonials{
+  position: absolute;
+  width:90%;
+  top:250vh;
+  left:5vw;
+  height:100vh;
+  background-color:#9FEBEB ;
+
+}
+/* wave */
+.custom-shape-divider-bottom-1617787908 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1617787908 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1617787908 .shape-fill {
+  fill: #FFFDFF;
+}
+
+.footer{
+  position: absolute;
+  width:90%;
+  top:350vh;
+  left:5vw;
+  height:20vh;
+  background-color:#ebea9f ;
+}
+.custom-shape-divider-bottom-1617815315 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1617815315 svg {
+  position: relative;
+  display: block;
+  width: calc(151% + 1.3px);
+  height: 169px;
+  
+}
+
+.custom-shape-divider-bottom-1617815315 .shape-fill {
+  fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1617815315 svg {
+      width: calc(171% + 1.3px);
+      height: 132px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 468px) {
+  .custom-shape-divider-bottom-1617787908 svg {
+      width: calc(190% + 1.3px);
+      height: 140px;
+  }
+}
+
+
+
+      
+
+  
+  @media screen and (max-width: 468px) {
+
+
+   
+
+    .logo{
+      position: absolute;
+      left:5px;
+      top: 4px;
+      
+    }
+
+    .logoText{
+      font-size: 14px;
+      color: #FAFCDB;
+      position: absolute;
+      left: 35px;
+      top: 10px;
+      
+    
+    }
+    hr{
+      width: 30vw;
+      height: 2px;
+      position: absolute;
+      left: 18px;
+      top: 414px;
+    }
+  
+    .text1{
+      position: absolute;
+      left: 45px;
+      top: 10px;
+      font-size: 20px;
+    
+    }
+  
+    
+    .text2{
+      position: absolute;
+      left: 47px;
+      top: 418px;
+      font-size: 25px;
+  
+    }
+
+
+    .line {
+      width: 30px;
+      height: 3px;
+      background:white;
+      margin: 5px;
+    }
+    nav {
+      position: absolute;
+      top:0vh;
+    }
+  
+    .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 3;
+    }
+  
+    .nav-links {
+      position: fixed;
+      left:0vw;
+      background: #9FEBEB;
+      color:#e68f2d;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(100px at 90% -10%);
+      -webkit-clip-path: circle(100px at 90% -10%);
+      transition: all 1s ease-out;
+      pointer-events: none;
+    }
+    .nav-links.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+      pointer-events: all;
+      z-index: 2;
+    }
+    .landing {
+      flex-direction: column;
+    }
+    .nav-links li {
+      opacity: 0;
+    }
+    .nav-links li a {
+      font-size: 25px;
+    }
+    .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 0.6s;
+    }
+    li.fade {
+      opacity: 1;
+    }
+ 
+    .card{
+    
+    
+    }
+    .heroImage{
+      position: absolute;
+      height:350px;
+      left:15px;
+      top:10vh;
+     
+    }
+
+    .heroSection{
+    
+      position: absolute;
+      top:0vh;
+      width: 100%;
+      height: 94vh;
+      left: 0vw;
+      bottom: 503px;
+
+  }
+
+  .logo-hero{
+    display: none;
+  }
+
+  .Hire{
+
+    width:100px;
+    height:5vh;
+    
+    position: absolute;
+    top:500px;
+    left:24vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .footer{
+    position: absolute;
+    width:90%;
+    top:4300px;
+    left:5vw;
+    height:20vh;
+    background-color:#ebea9f ;
+  }
+
+  .testimonials{
+    position: absolute;
+    width:90%;
+    top:3600px;
+    left:5vw;
+    height:100vh;
+  }
+
+    .serviceCards{
+      position: absolute;
+      top:100vh;
+      width:100%;
+    }
+
+  

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sansita";
+}
+
+body{
+    height: 100vh;
+    width: 99vw;
+    background: linear-gradient(45deg , #492645,#734488, #9FEBEB,#734488, #492645);
+}
+
+.navbar{
+    width: 100vw;
+    background-color: #492645;
+}
+
+.nav-item{
+    padding-left: 2.0832vw;
+}
+
+.container{
+    padding: 0%;
+    margin-top:  50px;
+    height: 605px;
+    width: 100vw;
+    background-color: #FAFCDB;
+    box-shadow:0 0 50px #FAFCDB;
+    border-radius: 10px;
+}
+
+.container .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.left img{
+    height:605px;
+    width: 40vw;
+    border-radius: 10px
+}
+
+.left .text1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-shadow:0 0 20px white;
+}
+
+.right form {
+    font-family: Kameron ;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	color: #492645;
+    max-height: 605px;
+}
+
+.right form h1 {
+    font-family: Kameron ;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.right form label {
+    font-family: Kameron ;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.right form label input {
+	margin-top: 25px;
+}
+
+.right .policy{
+    flex-direction: row;
+}
+
+#Terms {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.right form .policy input {
+	margin-right: 10px;
+}
+
+.right form .input1 input{
+    width: 20vw;
+}
+
+.right form .RegisterButton {
+	background:#734488;
+	width: 40%;
+	align-self: center;
+	border: none;
+	padding: 10px 10px;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	transition: background 1s;
+	border-radius: 4px;
+    margin-top: 10px;
+}
+
+.right form .RegisterButton:hover {
+	background: rgba(59,99,202,.8);
+}
+
+.right form #btn1{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 0;
+}

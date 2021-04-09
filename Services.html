@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="New Home.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="Services.html">Services</a>
@@ -45,12 +45,7 @@
         <div class="row">
           <div class="col">
             <div class="left">
-              <img title="Image" src="service.jpg" alt="register">
-              <span class="text1">
-                <h1>Bring Your Music Along</h1>
-                <h2>try Unlimited</h2>
-                <p><span>$ 9.99</span> / Month</p>
-              </span>
+              <img title="Image" src="party2.png" alt="register">
             </div>
           </div>
           <div class="col">
@@ -66,13 +61,34 @@
                       <input type="email" id="email">
                   </label>
                   <label class="input1">
-                      Password:
-                      <input type="password" id="password">
+                      Mobile Number:
+                      <input type="number" id="mobile">
                   </label>
                   <label class="input1">
-                      Confirm Password:
-                      <input type="password" id="cpassword">
+                      Event Type:
+                      <div class="input-group mb-3">
+                        <select class="custom-select" id="inputGroupSelect01">
+                          <option selected>-Select Event-</option>
+                          <option value="1">Wedding</option>
+                          <option value="2">Party</option>
+                          <option value="3">Official Event</option>
+                          <option value="2">Music Concert</option>
+                          <option value="2">Sports Ceremony</option>
+                          <option value="2">Others</option>
+                        </select>
+                      </div>
                   </label>
+                  <label class="input1">
+                    Your Budget:
+                    <div class="input-group mb-3">
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>-Select Budget-</option>
+                        <option value="1">Less than 1 Lakh</option>
+                        <option value="2">1 Lakh to 10 Lakhs</option>
+                        <option value="3">More than 10 Lakhs</option>
+                      </select>
+                    </div>
+                </label>
                   <label class="policy">
                       <input type="checkbox" id="policy">
                       <p id="Terms" >By clicking "Register", you agree to our Terms and Conditions</p>
@@ -84,22 +100,54 @@
                     <div class="modal-dialog modal-dialog-scrollable" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+                          <h5 class="modal-title" id="exampleModalScrollableTitle">Terms and Conditions</h5>
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <div class="modal-body">
-                          ...
+                          The Company provides the Services to the User subject to the Terms.<br>
+
+                          1. The Company reserves the right, in its sole discretion and without any obligation, to make improvements to, or correct any error or omissions in any portion of the Service or the Website<br>
+
+                          2. All information accessed or viewed by the User is considered confidential and is for only authorized personnel or business purposes.<br>
+
+                          3. In the circumstances, an event is cancelled or postponed by the Organiser for whatever reason, the Company will attempt to refund the amount as per the policy of the Company<br>
+
+                          4. The Company reserves the right to charge listing fees for certain listings, as well as transaction fees based on certain completed transactions using the Services. The Company further reserves the right to alter any and all fees from time to time, without notice. The User shall be liable to pay all applicable charges, fees, duties, taxes, levies and assessments for availing the Services.<br>
+
+                          5.The Company reserves the right, in its sole discretion, to terminate the access to the Website and the related services or any portion thereof at any time, without notice.<br>
+
+                          If any of these conditions are deemed invalid, void, or for any reason unenforceable, the parties agree that the court should endeavour to give effect to the parties’ intentions as reflected in the provision, and the unenforceable condition shall be deemed severable and shall not affect the validity and enforceability of the Terms.<br>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="button" class="btn btn-primary">Accept</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <button class="RegisterButton" type="Register">Regsiter</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="RegisterButton">
+                    Register
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">REGISTRATION SUCCESSFUL   !</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          One of our executives will contact you soon.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </form>
             </div>
           </div>

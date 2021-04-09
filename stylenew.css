@@ -30,11 +30,13 @@ body{
 .container1 h1{
     color: #492645;
     text-align: center;
+    text-shadow: 0 0 10px #FAFCDB ;
 }
 
 .container1 h5{
     color:#492645;
     text-align: center;
+    text-shadow: 0 0 10px #FAFCDB ;
 }
 
 .container1 hr{
@@ -65,6 +67,7 @@ body{
     margin-left: -1.0832vw;
     height: 100%;
     width:100%;
+    shape-rendering: crispEdges;
 }
 
 .des1{
@@ -86,6 +89,7 @@ body{
     margin-bottom: 50px;
     text-align: center;
     color: #492645;
+    text-shadow: 0 0 30px #FAFCDB ;
 }
 
 .container3{
@@ -102,6 +106,7 @@ body{
 .heading2 h1{
     font-family: Kameron;
     margin-top: 20px;
+    text-shadow: 0 0 30px black;
 }
 
 .heading2 hr{
@@ -122,6 +127,8 @@ body{
     max-height: 350px;
     margin-bottom: 45px;
     margin-left: 0.3888vw;
+    box-shadow: 10px 10px 20px #492645;
+    border-radius: 15px;
 }
 
 .container4 .col-sm{
@@ -129,9 +136,20 @@ body{
     padding-right: 3.552vw;
 }
 
+.carousel-inner img{
+    border-radius: 15px;
+    max-width: 22.832vw;
+    max-height: 350px;
+}
+
 .container4 h3{
     margin-top: 100px;
     font-family: Kameron;
     text-align: center;
     color: #FAFCDB;
+    text-shadow: 0 0 30px black;
+}
+
+.cards h3{
+    font-family: Kameron;
 }

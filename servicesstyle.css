@@ -60,19 +60,19 @@ body{
 .right form h1 {
     font-family: Kameron ;
 	font-size: 40px;
-	margin-bottom: 30px;
-    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 .right form label {
     font-family: Kameron ;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 .right form label input {
-	margin-top: 15px;
+	margin-top:0px;
 }
 
 .right .policy{
@@ -84,6 +84,7 @@ body{
     font-size: 15px;
 }
 .right form .policy input {
+    margin-top: 15px;
 	margin-right: 10px;
 }
 

@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Sansita";
+    color: #492645;
 }
 
 
@@ -53,6 +54,12 @@
 
 }
 
+.h1{
+    position: absolute;
+    top:180px;
+    left: 500px;
+}
+
 
 
 
@@ -65,9 +72,10 @@
 
 }
 
+
 .text1{
     position: absolute;
-    top:48vh;
+    top:335px;
     left:10vw;
     font-size: 3rem;
 }
@@ -82,7 +90,7 @@
 }
 
 .founderSection{
-    height:100vh;
+    height: 900px;;
 }
 .shaper1{
     background-color: #9FEBEB;
@@ -96,7 +104,7 @@
    
     position: absolute;
     top:790px;
-    left:800px;
+    left:900px;
     background-color:#FAFCDB;
 }
 .shaper2{
@@ -111,7 +119,7 @@
    
     position: absolute;
     top:1000px;
-    left:80px;
+    left:180px;
     
  
 }
@@ -127,7 +135,7 @@
    
     position: absolute;
     top:1190px;
-    left:800px;
+    left:900px;
    
 }
 
@@ -148,10 +156,10 @@
 .Reviews{
 
 
-    height: 100vh;
+    height: 900px;
     width:98%;
     position:absolute;
-    top:210vh;
+    top:1200px;
     left:1vw;
     border-radius: 20px;
    
@@ -253,17 +261,14 @@
 .rate-container
 {
    position:absolute;
+   left: 100px;
    width:100%;
-   top:310vh;
-
- 
+   top:1900px;
+   padding-bottom: 50px;
 }
 .rate-container h1
 {
   padding-left: 525px;
-  
-  
- 
 }
 .rate {
     float: left;
@@ -272,7 +277,6 @@
 }
 .rate:not(:checked) > input {
     position:absolute;
-    top:-9999px;
 }
 .rate:not(:checked) > label {
     float:right;

@@ -5,13 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Kameron";
+    font-family: "Sansita";
 }
 
 
 .navbar{
     background-color: #492645;
-    font-family: 'Sansita';
+    font-family: 'Kameron',sans-serif;
 }
 .container1{
     height: 720px;
@@ -34,7 +34,7 @@
 
 .aboutpage{
     background-color: #fff;
-    font-family: 'Sansita';
+    font-family: "Sansita";
     overflow-x: hidden;
 }
 

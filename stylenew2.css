@@ -233,6 +233,10 @@
   text-align: center;
 }
 
+.maincontainer:hover .thecard {
+    transform: rotateY(180deg);
+  }
+
 .sharuk{
     position: absolute;
     left:15rem;

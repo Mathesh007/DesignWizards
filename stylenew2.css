@@ -1,0 +1,432 @@
+/* Color Pallete:
+#734488, #492645, #9FEBEB, #FAFCDB */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kameron";
+}
+
+
+.navbar{
+    background-color: #492645;
+    font-family: 'Sansita';
+}
+.container1{
+    height: 720px;
+    width:95vw;
+}
+
+.img1{
+    height:450px;
+    width: 45vw;
+    margin-top: 120px;
+}
+
+.nav-item{
+    padding-left: 2.0832vw;
+}
+
+
+
+
+
+.aboutpage{
+    background-color: #fff;
+    font-family: 'Sansita';
+    overflow-x: hidden;
+}
+
+
+.founder{
+    border-radius: 50%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    padding:25px 44vw;
+    
+    
+}
+.founder img{
+
+
+}
+
+
+
+
+.box{
+    height: 700px;
+    width:100%;
+    /* Rectangle 2 */
+
+  
+
+}
+
+.text1{
+    position: absolute;
+    top:48vh;
+    left:10vw;
+    font-size: 3rem;
+}
+.meet{
+    height:60vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
+    position: absolute;
+    top:25vh;
+    left:50vw;
+
+}
+
+.founderSection{
+    height:100vh;
+}
+.shaper1{
+    background-color: #9FEBEB;
+  /* Rectangle 2 */
+
+    position: absolute;
+    width: 466px;
+    height: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px 40px 40px;
+   
+    position: absolute;
+    top:790px;
+    left:800px;
+    background-color:#FAFCDB;
+}
+.shaper2{
+    background-color: #9FEBEB;
+  /* Rectangle 2 */
+
+    position: absolute;
+    width: 466px;
+    height: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 40px 40px 40px;
+   
+    position: absolute;
+    top:1000px;
+    left:80px;
+    
+ 
+}
+.shaper3{
+    background-color: #734488;
+  /* Rectangle 2 */
+
+    position: absolute;
+    width: 466px;
+    height: 130px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px 40px 40px;
+   
+    position: absolute;
+    top:1190px;
+    left:800px;
+   
+}
+
+.shaper h1 {
+    margin:10px;
+    font-size: 30px;
+    font-family: "Sansita";
+}
+
+.shaper p {
+    margin:10px;
+    
+    font-family: "Sansita";
+}
+
+/* Reviews */
+
+.Reviews{
+
+
+    height: 100vh;
+    width:98%;
+    position:absolute;
+    top:210vh;
+    left:1vw;
+    border-radius: 20px;
+   
+
+    
+    }
+
+.maincontainer{
+ 
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.thecard{
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ffc728;
+  color: #000;
+}
+
+
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #FAFCDB;
+  color: #734488;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+
+.thefront h1, .theback h1{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p, .theback p{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+.sharuk{
+    position: absolute;
+    left:15rem;
+}
+
+.viruksha{
+    position: absolute;
+    left:33rem;
+}
+
+.modi{
+    position: absolute;
+    left:33rem;
+}
+
+
+/* rate */
+.rate-container
+{
+   position:absolute;
+   width:100%;
+   top:310vh;
+
+ 
+}
+.rate-container h1
+{
+  padding-left: 525px;
+  
+  
+ 
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+@media only screen and (max-width: 468px) {
+    svg{
+        display: none;
+    }
+    .aboutpage{
+        overflow-x: hidden;
+    }
+
+    .meet{
+        height:210px;
+        border-radius: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
+        position: absolute;
+        top:100px;
+        left:50px;
+        z-index: 0;
+    
+    }
+
+    .text1{
+        position: absolute;
+        top: 395px;;
+        left:10vw;
+        font-size: 2rem;
+    }
+
+    .founder{
+     
+        height:190px;
+        display: flex;
+        align-items: center;
+        padding:20px 10px;
+        
+        
+    }
+
+    .founderSection{
+        position: absolute;
+        top:500px;
+    }
+    .shaper1{
+        width: 195px;
+        height: 100px;      
+        position: absolute;
+        top:545px;
+        left:180px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 40px 40px 40px;
+        
+    }
+    .shaper2{    
+        width: 195px;
+        height: 100px;      
+        position: absolute;
+        top:740px;
+        left:180px;     
+    }
+    .shaper3{
+        width: 195px;
+        height: 100px;  
+        position: absolute;
+        top:930px;
+        left:180px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 40px 40px 40px;
+       
+    }
+
+    .shaper h1 {
+        margin:10px;
+        font-size: 10px;
+        font-family: "Sansita";
+    }
+    
+    .shaper p {
+        margin:0px,17px;
+        font-size: 10px;
+        font-family: "Sansita";
+        font-weight: 100;
+    }
+
+    
+        .Reviews{ 
+            position:absolute;
+            top:1100px;
+            left:1vw;  
+            height:110vh;
+            }
+            .Reviews p { 
+                font-size: 10px;
+            }
+
+            .sharuk{
+                height:260px;
+                width:190px;
+                position: absolute;
+                left:11.5rem;
+                top:10rem;
+            }
+            
+            .viruksha{
+                height:260px;
+                width:190px;
+                position: absolute;
+                left:6.3rem;
+                top:26rem;
+            }
+            
+            .modi{
+                height:260px;
+                width:190px;
+                position: absolute;
+                left:5.9rem;
+                top:26rem;
+            }
+            .rate-container h1
+                {
+                padding-left: 100px;
+                
+                
+                
+                }
+
+        
+        }
+
+
+
+
